@@ -1,0 +1,873 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- OwlCarousel2 -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>   
+ 
+    
+<body class="">
+<section class="pb-4" style="background-color: white;">      
+<section>
+    <div class="">
+
+        <!-- <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> -->
+        <style>
+          .banner-head{padding-top: 400px;background-color: #00000082;}
+          @media only screen and (max-width: 600px) {
+            .banner-head{padding-top: 175px;background-color: #00000000;}
+          }
+        </style>  
+        
+        <div style="background-image: url(images/banner.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;">
+            <div class="banner-head">
+            </div>
+        </div>
+          <style>
+            .profile img{width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #ffbf00;}
+            .business{margin-top: -281px;position: relative;}
+            .profi-name{color: white;}
+        
+            @media only screen and (max-width: 600px) {
+            .profile img {
+               width: 90px;
+               height: 90px;
+               border-radius: 50%;
+               border: 4px solid #ffbf00;
+            }
+            .profi-name{color:black;}
+            .business {margin-top: -40px;}
+            .profi-name{float: right;padding-top: 50px;}
+            }
+        </style>
+        <section class="business pb-2">
+            <div class="container">
+                <div class="row">
+                 <div class="col-md-7 col-lg-7">
+                    <div class="d-flex">
+                    <div class="profile"><img src="images/profil.jpg" alt="" width="100%"></div>
+                    <div class="m-auto" style="margin-left: 30px!important;">
+                        <div class="profi-name">
+                            <h2>Business Name</h2>
+                            <p>Leading Business Tycoon</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="col-md-5 col-lg-5 m-auto pt-2">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-6 col-md-6 col-lg-6"><a type="button" class="btn btn-success w-100"> Favourite</a></div>
+                            <div class="col-6 col-md-6 col-lg-6"><a type="button" class="btn btn-success w-100"><i class="fa-brands fa-facebook-messenger"></i> Contact</a></div>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </section>
+       
+
+    </div>
+</section>
+</section>
+
+
+<!-- <style>
+  .nav-tabs li a{color:white;}
+  .nav-tabs .active a{color:rgb(0, 0, 0);}
+  .nav-tabs li a:hover{color:rgb(0, 0, 0); background-color: white;}
+</style>
+<section class="pt-2 pb-2" style="position: relative;">
+    <div class="container">
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+        </li>
+      </ul>
+
+        <div class="bg-white">
+          <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+              <h3>Menu1</h3>
+              <p>...</p>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+              <h3>Menu2</h3>
+              <p>...</p>
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+              <h3>Menu3</h3>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+<style>
+
+.testimonials-card .owl-item .active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+  .carousel-1 img{
+    width: 90px!important;
+    height: 90px!important;
+    border-radius: 50%;}
+    .card-text{border: 0;
+    box-shadow: 0 0 35px rgb(140 152 164 / 20%);
+    border-radius: 0.25rem;
+    margin-top: -45px;
+    position: relative;
+
+    }
+    
+   
+</style>
+
+<style>
+ .owl-carousel .owl-nav.disabled { display: block;}
+ /* .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: block;
+} */
+
+
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    left: 0px;
+    zoom: 1;
+    opacity: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 32px;
+    border: 1px solid rgba(0,0,0,.2)!important;
+    color: rgb(0, 0, 0)!important;
+    background-color: #fff;
+    font-size: 18px!important;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+} 
+.owl-carousel .owl-nav .owl-prev:hover{background-color: #FE9603 !important;color: rgb(255, 255, 255)!important;}
+
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    right: 0px;
+    zoom: 1;
+    opacity: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 32px;
+    border: 1px solid rgba(0,0,0,.2)!important;
+    color: rgb(0, 0, 0)!important;
+    background-color: #fff;
+    font-size: 18px!important;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.owl-carousel .owl-nav .owl-next:hover{background-color: #FE9603 !important;color: rgb(255, 255, 255)!important;}
+
+.owl-carousel:hover .owl-next{
+    opacity: 1;
+}
+.owl-carousel:hover .owl-prev{
+    opacity: 1;
+}
+
+</style>
+
+
+
+
+
+
+
+
+<style>
+  .shadow-effect {
+		    background: #fff;
+		    padding: 20px;
+		    border-radius: 4px;
+		    text-align: center;
+	border:1px solid #ECECEC;
+		    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+		}
+
+		.testimonial-name {
+		    margin: 0px auto 0;
+		    display: table;
+		    width: auto;
+		    background: #FE9603;
+		    padding: 9px 35px;
+		    border-radius: 12px;
+		    text-align: center;
+		    color: #fff;
+		    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+		}
+		#achievements .item {
+		    text-align: center;
+        padding: 50px 25px 50px 25px;
+        
+		    opacity: .2;
+        
+		    -webkit-transform: scale3d(0.8, 0.8, 1);
+		    transform: scale3d(0.8, 0.8, 1);
+		    -webkit-transition: all 0.3s ease-in-out;
+		    -moz-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+		#achievements .owl-item.active.center .item {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1.0, 1.0, 1);
+		    transform: scale3d(1.0, 1.0, 1);
+		}
+		.owl-carousel .owl-item img {
+		    transform-style: preserve-3d;
+		    max-width: 90px;
+    		margin: 0 auto 17px;
+        border-radius: 50%;
+        margin-top: -60px;
+		}
+		#achievements.owl-carousel .owl-dots .owl-dot.active span,
+#achievements.owl-carousel .owl-dots .owl-dot:hover span {
+		    background: #FE9603;
+		    transform: translate3d(0px, -50%, 0px) scale(0.7);
+		}
+#achievements.owl-carousel .owl-dots{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#achievements.owl-carousel .owl-dots .owl-dot{
+	display: inline-block;
+}
+		#achievements.owl-carousel .owl-dots .owl-dot span {
+		    background: #FE9603;
+		    display: inline-block;
+		    height: 20px;
+		    margin: 0 2px 5px;
+		    transform: translate3d(0px, -50%, 0px) scale(0.3);
+		    transform-origin: 50% 50% 0;
+		    transition: all 250ms ease-out 0s;
+		    width: 20px;
+		}
+</style>
+<style>
+  @media only screen and (min-width: 600px) {
+  .member{margin-top: 70px;}
+  }
+</style>
+<section class="testimonials member pt-4 pb-4">
+	<div class="container">
+    <h2 class="text-center">Member of Communities</h2>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="achievements" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>I am a Proud member of BNI since Dec 2021<br>2022<br>Chapter Amigos</p>
+                <div class="testimonial-name">North West Region</div>
+              </div>
+              
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>I am a Proud member of BNI since Dec 2021<br>2022<br>Chapter Amigos</p>
+                <div class="testimonial-name">North West Region</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>I am a Proud member of BNI since Dec 2021<br>2022<br>Chapter Amigos</p>
+                <div class="testimonial-name">North West Region</div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<style>
+  .shadow-effect {
+		    background: #fff;
+		    padding: 20px;
+		    border-radius: 4px;
+		    text-align: center;
+	border:1px solid #ECECEC;
+		    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+		}
+
+		.testimonial-name {
+		    margin: 0px auto 0;
+		    display: table;
+		    width: auto;
+		    background: #FE9603;
+		    padding: 9px 35px;
+		    border-radius: 12px;
+		    text-align: center;
+		    color: #fff;
+		    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+		}
+		#customers-testimonials .item {
+		    text-align: center;
+        padding: 50px 25px 50px 25px;
+        
+		    opacity: .2;
+        
+		    -webkit-transform: scale3d(0.8, 0.8, 1);
+		    transform: scale3d(0.8, 0.8, 1);
+		    -webkit-transition: all 0.3s ease-in-out;
+		    -moz-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+		#customers-testimonials .owl-item.active.center .item {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1.0, 1.0, 1);
+		    transform: scale3d(1.0, 1.0, 1);
+		}
+		.owl-carousel .owl-item img {
+		    transform-style: preserve-3d;
+		    max-width: 90px;
+    		margin: 0 auto 17px;
+        border-radius: 50%;
+        margin-top: -60px;
+		}
+		#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+		    background: #FE9603;
+		    transform: translate3d(0px, -50%, 0px) scale(0.7);
+		}
+#customers-testimonials.owl-carousel .owl-dots{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+	display: inline-block;
+}
+		#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+		    background: #FE9603;
+		    display: inline-block;
+		    height: 20px;
+		    margin: 0 2px 5px;
+		    transform: translate3d(0px, -50%, 0px) scale(0.3);
+		    transform-origin: 50% 50% 0;
+		    transition: all 250ms ease-out 0s;
+		    width: 20px;
+		}
+</style>
+<section class="testimonials pt-4 pb-4">
+	<div class="container">
+    <h2 class="text-center">Achievements</h2>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>Awarded and Featured in Taare Zameen Par Magzine<br>January Issue<br>2022</p>
+                <div class="testimonial-name">Umeedon ke Champ</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>Awarded and Featured in Taare Zameen Par Magzine<br>January Issue<br>2022</p>
+                <div class="testimonial-name">Umeedon ke Champ</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>Awarded and Featured in Taare Zameen Par Magzine<br>January Issue<br>2022</p>
+                <div class="testimonial-name">Umeedon ke Champ</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="images/profil.jpg" alt="" width="100%" alt="">
+                <p>Awarded and Featured in Taare Zameen Par Magzine<br>January Issue<br>2022</p>
+                <div class="testimonial-name">Umeedon ke Champ</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+           
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+<style>
+  .teble-company th{background-color: #e9e9e9;}
+  table{border-color: #fe9603!important ;}
+</style>
+<section class="pt-4 pb-4" style="background-color: #fff0c1;">
+  <div class="container">
+    <h2 class="text-center pb-2">About Us</h2>
+      <div class="bg-white">
+          <div class="">  
+           <div>
+            <table class="table table-bordered teble-company">
+              <thead>
+                <tr>
+                  <th scope="col">Type</th>
+                  <th scope="col">Public company</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Traded as</th>
+                  <td>NYSE: MCD<br>
+                      DJIA component<br>
+                      S&amp;P 100 component<br>
+                      S&amp;P 500 component
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">ISIN</th>
+                  <td>US5801351017</td>
+                </tr>
+                <tr>
+                  <th scope="row">Industry</th>
+                  <td colspan="2">Restaurants, real estate[1][2]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Genre</th>
+                  <td colspan="2">Fast food restaurant</td>
+                </tr>
+                <tr>
+                  <th scope="row">Founded</th>
+                  <td colspan="2">May 15, 1940; 82<br> years ago in San<br> Bernardino, California</td>
+                </tr>
+                <tr>
+                  <th scope="row">Founders</th>
+                  <td colspan="2">Richard McDonald<br>
+                      Maurice McDonald<br>
+                      Ray Kroc</td>
+                </tr>
+                <tr>
+                  <th scope="row">Headquarters</th>
+                  <td colspan="2">Chicago, Illinois, U.S.[3]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Number of locations</th>
+                  <td colspan="2">Increase 40,031 restaurants (2021)[4]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Area served</th>
+                  <td colspan="2">Worldwide (119+ countries)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Key people</th>
+                  <td colspan="2">Enrique Hernandez Jr. (Chairman)[5]
+                      Chris Kempczinski (President &amp; CEO)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Products</th>
+                  <td colspan="2">Hamburgers
+                      chicken<br>
+                      french<br> 
+                      friessoft<br> 
+                      drinks<br>
+                      soft serves<br>
+                      milkshakes<br>
+                      salads<br>
+                      desserts<br>
+                      hotcake<br>
+                      coffee<br>
+                      breakfast<br>
+                      wraps
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Revenue</th>
+                  <td colspan="2">Increase US$23.223 billion (2021)[4]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Operating income</th>
+                  <td colspan="2">Increase US$10.356 billion (2021)[4]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Net income</th>
+                  <td colspan="2">
+                      Increase US$7.545 billion (2021)[4]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Total assets</th>
+                  <td colspan="2">
+                      Increase US$53.854 billion (2021)[4]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Total equity</th>
+                  <td colspan="2">
+                      Positive decrease −US$4.601 billion (2021)[4]</td>
+                </tr>
+                <tr>
+                  <th scope="row">Number of employees</th>
+                  <td colspan="2">
+                      Approx. 200,000 (2021)[4]</td>
+                </tr>
+                
+              </tbody>
+            </table>
+           </div> 
+           </div>
+      </div>
+   </div>
+</section>    
+
+
+<style>
+  .count-box{    border: 2px dashed #fe9603;
+    padding: 12px;}
+  .count-img{width: 25%;}
+  .count{width: 75%;padding-left: 13px;}
+  .count-img img{    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);}
+   .count-img .img-border:hover{border: 2px solid rgb(255 139 0);border-radius: 50%;}
+   .count-img .img-border{border: 2px solid rgb(0, 0, 0);border-radius: 50%;}
+</style>
+<section class="pt-4 pb-4">
+  <div class="container">
+      <div class="bg-white">
+          <div class="p-4">
+           <h2 class="text-center">Number Counts</h2>   
+           <div class="company-count">
+            <div class="row pt-3">
+
+            <div class="col-12 col-md-3 col-lg-3 pb-4"> 
+            <div class="count-box d-flex">
+            <div class="count-img"><div class="img-border"><img src="images/profil.jpg" alt="" width="100%"></div></div>  
+            <div class="count">
+              <h2 data-count="100" class="counter">100</h2>
+              <p class="m-0">Speaker</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3 pb-4">
+            <div class="count-box d-flex">
+            <div class="count-img"><div class="img-border"><img src="images/profil.jpg" alt="" width="100%"></div></div> 
+            <div class="count">
+              <h2 data-count="30+" class="counter">30+</h2>
+              <p class="m-0">Governments &amp; Ministers</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3 pb-4">
+            <div class="count-box d-flex"> 
+            <div class="count-img"><div class="img-border"><img src="images/profil.jpg" alt="" width="100%"></div></div>   
+            <div class="count">
+              <h2 data-count="600+" class="counter">600+</h2>
+              <p class="m-0">Delegates</p>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="col-12 col-md-3 col-lg-3 pb-4">
+            <div class="count-box d-flex"> 
+            <div class="count-img"><div class="img-border"><img src="images/profil.jpg" alt="" width="100%"></div></div>   
+            <div class="count">
+              <h2 data-count="2,500+" class="counter">2,500+</h2>
+              <p class="m-0">VISITORS</p>
+            </div>
+            </div>
+            </div>
+
+          </div> 
+        </div>
+           </div>
+      </div>
+   </div>
+</section> 
+
+
+
+<footer>
+  <div>
+    <img src="images/footer.png" alt="" width="100%">
+  </div>
+  <div class="pt-2 pb-2 text-center" style="background-color: #fff0c1;"><p class="m-0">© Copyright All Rights Reserved By Sirvi 2022</p></div>
+</footer>
+
+
+<style>
+
+  @media only screen and (max-width: 600px){
+  
+  .bottom-manu {
+      bottom: 0px;
+      z-index: 200;
+  }
+  }
+  
+  .back-color {
+      background-color: #f6f6f6;
+  }
+  .footer-icon i {
+      color: #6a6a6a!important;
+  }
+  .position-fixed {
+  position: fixed!important;
+  }
+  </style>
+<div class="d-block d-sm-block d-md-none d-lg-none position-fixed w-100 bottom-manu">
+  <div class="back-color">
+  <div class="row m-auto pt-1 pb-1">
+      <div class="col-2 col-sm-2 m-auto">
+          <a href="index.html"><div class="text-center"><span class="footer-icon" style="font-size: 25px;"><i class="fa-solid fa-phone"></i></span></div></a>
+      </div>
+      <div class="col-2 col-sm-2 m-auto">
+          <div class="text-center" data-bs-toggle="modal" data-bs-target="#link"><span class="footer-icon" style="font-size: 25px;"><i class="fa-brands fa-whatsapp"></i></span></div>
+      </div>
+      <div class="col-2 col-sm-2 m-auto">
+          <a href=""><div class="text-center"><span class="footer-icon" style="font-size: 25px;"><i class="fa-regular fa-heart"></i></span></div></a>
+      </div>
+      <div class="col-2 col-sm-2 m-auto">
+          <a href=""><div class="text-center"><span class="footer-icon" style="font-size: 25px;"><i class="fa-sharp fa-solid fa-location-dot"></i></span></div></a>
+      </div>
+      <div class="col-2 col-sm-2 m-auto">
+          <a href=""><div class="text-center"><span class="footer-icon" style="font-size: 25px;"><i class="fa-solid fa-share-nodes"></i></span></div></a>
+      </div>
+      <div class="col-2 col-sm-2 m-auto">
+          <a href=""><div class="text-center"><span class="footer-icon" style="font-size: 25px;"><i class="fa-solid fa-comment"></i></span></div></a>
+      </div>
+      
+      <!-- <div class="col-2 col-sm-2 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="text-center btn btn-warning rounded-0 w-100 mt-2 mb-2"><span class="footer-icon text-dark">Enquiry</span></div>
+     
+      </div> -->
+     
+  </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+  $(".carousel-1").owlCarousel({
+    margin: 10,
+    loop: true,
+    // autoplay: true,
+    // smartSpeed: 1000,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      0:{
+        items:2,
+        nav: false
+      },
+      600:{
+        items:2,
+        nav: false
+      },
+      1000:{
+        items:3,
+        nav: false
+      }
+    }
+  });
+</script>
+
+
+
+<script>
+  $(document).ready(function(){
+$('.count h2').each(function() {
+    var $this = $(this);
+    if ($this.attr('data-count').indexOf('+') > -1) {
+        countTo = $this.attr('data-count').replace(/[,+]/g, "");
+        
+        $({ countNum: $this.text() }).animate({
+                countNum: countTo
+            },
+
+            {
+                duration: 5000,
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text($this.attr('data-count'));
+                    //alert('finished');
+                }
+
+            });
+
+    } else {
+        countTo = $this.attr('data-count');
+        $(this).prop('countTo', 0).animate({
+            countTo: $(this).text()
+        }, {
+            duration: 600,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+
+
+    }
+});
+});
+</script>
+
+
+<script>jQuery(document).ready(function($) {
+  "use strict";
+  //  TESTIMONIALS CAROUSEL HOOK
+  $('#customers-testimonials').owlCarousel({
+      loop: true,
+      center: true,
+      items: 3,
+      margin: 0,
+      // autoplay: true,
+      dots:true,
+      autoplayTimeout: 8500,
+      smartSpeed: 450,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1170: {
+          items: 1
+        }
+      }
+  });
+});</script>
+
+
+
+<script>jQuery(document).ready(function($) {
+  "use strict";
+  //  TESTIMONIALS CAROUSEL HOOK
+  $('#achievements').owlCarousel({
+      loop: true,
+      center: true,
+      items: 3,
+      margin: 0,
+      // autoplay: true,
+      dots:true,
+      autoplayTimeout: 8500,
+      smartSpeed: 450,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1170: {
+          items: 1
+        }
+      }
+  });
+});</script>
+
+</body>
+
+</html>
