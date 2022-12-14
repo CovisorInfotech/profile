@@ -226,10 +226,10 @@
                        <div class="col-md-5 col-lg-5 m-auto pt-2">
                           <div class="col-md-12 col-lg-12">
                               <div class="row">
-                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success1 "><i class="fa-solid fa-phone"></i><span class="d-none d-md-block d-lg-block"> Call</span></a></div>
-                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success2 "><i class="fa-brands fa-whatsapp"></i><span class="d-none d-md-block d-lg-block"> Whatsapp</span></a></div>
-                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success3 "><i class="fa-regular fa-envelope"></i><span class="d-none d-md-block d-lg-block"> Email</span></a></div>
-                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success4 "><i class="fa-solid fa-location-dot"></i><span class="d-none d-md-block d-lg-block"> Email</span></a></div>
+                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success1 "><i class="fa-solid fa-phone"></i><span class="d-none"> Call</span></a></div>
+                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success2 "><i class="fa-brands fa-whatsapp"></i><span class="d-none"> Whatsapp</span></a></div>
+                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success3 "><i class="fa-regular fa-envelope"></i><span class="d-none"> Email</span></a></div>
+                                  <div class="col-3 col-md-3 col-lg-3 p-2 text-center"><a type="button" class="btn btn-success4 "><i class="fa-solid fa-location-dot"></i><span class="d-none"> Email</span></a></div>
                               
                                 </div>
                           </div>
@@ -1963,7 +1963,7 @@ responsive:{
       <div><h2 class="text-center pb-2">Blog</h2></div>
       <style>
          @media only screen and (max-width: 600px) {
-        .blog-page h4{font-size: 16px;text-align: justify;}
+        .blog-page h4{font-size: 16px;}
          }
          .row blog-page img{border-radius: 12px;}
       </style>
@@ -2099,17 +2099,24 @@ responsive:{
       <div><h2 class="text-center pb-2">Connections</h2></div>
       <style>
          @media only screen and (max-width: 600px) {
-        .connections-page h4{font-size: 16px;text-align: justify;}
+        .connections-page h4{font-size: 16px;}
          }
          .row blog-page img{border-radius: 12px;}
+         .img-back{    background-size: cover;
+    background-position: center;}
       </style>
 
-      <div class="card p-2 m-2">
+      <div class="card m-2">
       <a href="profile.html">  
-      <div class="row connections-page">
-        <div class="col-8 col-md-8 col-lg-8 m-auto">
+      <div class="row connections-page m-0">
+        <div class="col-4 col-md-4 col-lg-4 p-0 img-back" style="background-image: url(./images/blog.jpg);">
+          <div></div>
+        </div>
+        <div class="col-8 col-md-8 col-lg-8 p-2 m-auto">
           <div>
             <h4>Ukraine war: US says Iran now Russia's 'top military backer'</h4>
+            <div class=""><span class="me-2">4.0</span><span class="me-2 star-icon"><svg width="100px" height="100%" viewBox="0 0 1000 200"><polygon id="star749" points="100,10 40,198 190,78 10,78 160,198" fill="#FFE372"></polygon><defs><clipPath id="stars749"><use xlink:href="#star749"></use><use xlink:href="#star749" x="21%"></use><use xlink:href="#star749" x="41%"></use><use xlink:href="#star749" x="61%"></use><use xlink:href="#star749" x="81%"></use></clipPath></defs><rect width="100%" height="100%" clip-path="url(#stars749)" style="fill: rgb(215, 215, 215); stroke: red; stroke-width: 1; height: 100%; width: 100%;"></rect><rect width="80%" height="100%" clip-path="url(#stars749)" style="fill: rgb(255, 110, 0); height: 100%;"></rect></svg></span><span class="">Ratings</span></div>
+            <div class=""><span class="me-2"><span class="" style="background-color: white;">10 YRS</span></span><span class="me-2"><img src="images/jdvrsl_verified.svg" alt="" style="width:50px;background-color: white;padding: 4px 6px 6px 6px;"></span><span class=""><img src="images/jdvrsl_trusted.svg" alt="" style="width:50px;"></span><span class="badge-jdpay break-line" style="background-image: url(&quot;https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/ctlgjdpay2x.png&quot;);"></span></div>
             <p class="d-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
@@ -2117,20 +2124,22 @@ responsive:{
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.</p>
           </div>
-        </div>
-        <div class="col-4 col-md-4 col-lg-4">
-          <div><img src="images/blog.jpg" alt="" width="100%"></div>
         </div>
       </div>
      </a>
 
     </div>
-    <div class="card p-2 m-2">
+    <div class="card m-2">
       <a href="profile.html">
       <div class="row blog-page">
-        <div class="col-8 col-md-8 col-lg-8 m-auto">
+        <div class="col-4 col-md-4 col-lg-4 p-0 img-back" style="background-image: url(./images/blog.jpg);">
+          <div></div>
+        </div>
+        <div class="col-8 col-md-8 col-lg-8 p-2 m-auto">
           <div>
             <h4>Ukraine war: US says Iran now Russia's 'top military backer'</h4>
+            <div class=""><span class="me-2">4.0</span><span class="me-2 star-icon"><svg width="100px" height="100%" viewBox="0 0 1000 200"><polygon id="star749" points="100,10 40,198 190,78 10,78 160,198" fill="#FFE372"></polygon><defs><clipPath id="stars749"><use xlink:href="#star749"></use><use xlink:href="#star749" x="21%"></use><use xlink:href="#star749" x="41%"></use><use xlink:href="#star749" x="61%"></use><use xlink:href="#star749" x="81%"></use></clipPath></defs><rect width="100%" height="100%" clip-path="url(#stars749)" style="fill: rgb(215, 215, 215); stroke: red; stroke-width: 1; height: 100%; width: 100%;"></rect><rect width="80%" height="100%" clip-path="url(#stars749)" style="fill: rgb(255, 110, 0); height: 100%;"></rect></svg></span><span class="">Ratings</span></div>
+            <div class=""><span class="me-2"><span class="" style="background-color: white;">10 YRS</span></span><span class="me-2"><img src="images/jdvrsl_verified.svg" alt="" style="width:50px;background-color: white;padding: 4px 6px 6px 6px;"></span><span class=""><img src="images/jdvrsl_trusted.svg" alt="" style="width:50px;"></span><span class="badge-jdpay break-line" style="background-image: url(&quot;https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/ctlgjdpay2x.png&quot;);"></span></div>
             <p class="d-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
@@ -2138,20 +2147,22 @@ responsive:{
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.</p>
           </div>
-        </div>
-        <div class="col-4 col-md-4 col-lg-4">
-          <div><img src="images/blog.jpg" alt="" width="100%"></div>
         </div>
       </div>
       </a>
     </div>
 
-    <div class="card p-2 m-2">
+    <div class="card m-2">
       <a href="profile.html">
       <div class="row blog-page">
-        <div class="col-8 col-md-8 col-lg-8 m-auto">
+        <div class="col-4 col-md-4 col-lg-4 p-0 img-back" style="background-image: url(./images/blog.jpg);">
+          <div></div>
+        </div>
+        <div class="col-8 col-md-8 col-lg-8 p-2 m-auto">
           <div>
             <h4>Ukraine war: US says Iran now Russia's 'top military backer'</h4>
+            <div class=""><span class="me-2">4.0</span><span class="me-2 star-icon"><svg width="100px" height="100%" viewBox="0 0 1000 200"><polygon id="star749" points="100,10 40,198 190,78 10,78 160,198" fill="#FFE372"></polygon><defs><clipPath id="stars749"><use xlink:href="#star749"></use><use xlink:href="#star749" x="21%"></use><use xlink:href="#star749" x="41%"></use><use xlink:href="#star749" x="61%"></use><use xlink:href="#star749" x="81%"></use></clipPath></defs><rect width="100%" height="100%" clip-path="url(#stars749)" style="fill: rgb(215, 215, 215); stroke: red; stroke-width: 1; height: 100%; width: 100%;"></rect><rect width="80%" height="100%" clip-path="url(#stars749)" style="fill: rgb(255, 110, 0); height: 100%;"></rect></svg></span><span class="">Ratings</span></div>
+            <div class=""><span class="me-2"><span class="" style="background-color: white;">10 YRS</span></span><span class="me-2"><img src="images/jdvrsl_verified.svg" alt="" style="width:50px;background-color: white;padding: 4px 6px 6px 6px;"></span><span class=""><img src="images/jdvrsl_trusted.svg" alt="" style="width:50px;"></span><span class="badge-jdpay break-line" style="background-image: url(&quot;https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/ctlgjdpay2x.png&quot;);"></span></div>
             <p class="d-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
@@ -2159,20 +2170,22 @@ responsive:{
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.</p>
           </div>
-        </div>
-        <div class="col-4 col-md-4 col-lg-4">
-          <div><img src="images/blog.jpg" alt="" width="100%"></div>
         </div>
       </div>
       </a>
     </div>
 
-    <div class="card p-2 m-2">
+    <div class="card m-2">
       <a href="profile.html">
       <div class="row blog-page">
-        <div class="col-8 col-md-8 col-lg-8 m-auto">
+        <div class="col-4 col-md-4 col-lg-4 p-0 img-back" style="background-image: url(./images/blog.jpg);">
+          <div></div>
+        </div>
+        <div class="col-8 col-md-8 col-lg-8 p-2 m-auto">
           <div>
             <h4>Ukraine war: US says Iran now Russia's 'top military backer'</h4>
+            <div class=""><span class="me-2">4.0</span><span class="me-2 star-icon"><svg width="100px" height="100%" viewBox="0 0 1000 200"><polygon id="star749" points="100,10 40,198 190,78 10,78 160,198" fill="#FFE372"></polygon><defs><clipPath id="stars749"><use xlink:href="#star749"></use><use xlink:href="#star749" x="21%"></use><use xlink:href="#star749" x="41%"></use><use xlink:href="#star749" x="61%"></use><use xlink:href="#star749" x="81%"></use></clipPath></defs><rect width="100%" height="100%" clip-path="url(#stars749)" style="fill: rgb(215, 215, 215); stroke: red; stroke-width: 1; height: 100%; width: 100%;"></rect><rect width="80%" height="100%" clip-path="url(#stars749)" style="fill: rgb(255, 110, 0); height: 100%;"></rect></svg></span><span class="">Ratings</span></div>
+            <div class=""><span class="me-2"><span class="" style="background-color: white;">10 YRS</span></span><span class="me-2"><img src="images/jdvrsl_verified.svg" alt="" style="width:50px;background-color: white;padding: 4px 6px 6px 6px;"></span><span class=""><img src="images/jdvrsl_trusted.svg" alt="" style="width:50px;"></span><span class="badge-jdpay break-line" style="background-image: url(&quot;https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/ctlgjdpay2x.png&quot;);"></span></div>
             <p class="d-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
@@ -2180,20 +2193,22 @@ responsive:{
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.</p>
           </div>
-        </div>
-        <div class="col-4 col-md-4 col-lg-4">
-          <div><img src="images/blog.jpg" alt="" width="100%"></div>
         </div>
       </div>
       </a>
     </div>
     
-    <div class="card p-2 m-2">
+    <div class="card m-2">
       <a href="profile.html">
       <div class="row blog-page">
-        <div class="col-8 col-md-8 col-lg-8 m-auto">
+        <div class="col-4 col-md-4 col-lg-4 p-0 img-back" style="background-image: url(./images/blog.jpg);">
+          <div></div>
+        </div>
+        <div class="col-8 col-md-8 col-lg-8 p-2 m-auto">
           <div>
             <h4>Ukraine war: US says Iran now Russia's 'top military backer'</h4>
+            <div class=""><span class="me-2">4.0</span><span class="me-2 star-icon"><svg width="100px" height="100%" viewBox="0 0 1000 200"><polygon id="star749" points="100,10 40,198 190,78 10,78 160,198" fill="#FFE372"></polygon><defs><clipPath id="stars749"><use xlink:href="#star749"></use><use xlink:href="#star749" x="21%"></use><use xlink:href="#star749" x="41%"></use><use xlink:href="#star749" x="61%"></use><use xlink:href="#star749" x="81%"></use></clipPath></defs><rect width="100%" height="100%" clip-path="url(#stars749)" style="fill: rgb(215, 215, 215); stroke: red; stroke-width: 1; height: 100%; width: 100%;"></rect><rect width="80%" height="100%" clip-path="url(#stars749)" style="fill: rgb(255, 110, 0); height: 100%;"></rect></svg></span><span class="">Ratings</span></div>
+            <div class=""><span class="me-2"><span class="" style="background-color: white;">10 YRS</span></span><span class="me-2"><img src="images/jdvrsl_verified.svg" alt="" style="width:50px;background-color: white;padding: 4px 6px 6px 6px;"></span><span class=""><img src="images/jdvrsl_trusted.svg" alt="" style="width:50px;"></span><span class="badge-jdpay break-line" style="background-image: url(&quot;https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot/ctlgjdpay2x.png&quot;);"></span></div>
             <p class="d-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
@@ -2201,9 +2216,6 @@ responsive:{
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi, vel ipsa porro dolor quod temporibus doloribus? Aliquid
                fuga earum perferendis sunt ipsa. Accusamus repudiandae architecto deleniti. Ea, illum nemo.</p>
           </div>
-        </div>
-        <div class="col-4 col-md-4 col-lg-4">
-          <div><img src="images/blog.jpg" alt="" width="100%"></div>
         </div>
       </div>
       </a>
