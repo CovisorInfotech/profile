@@ -26,13 +26,16 @@
   #profile-head img{border-radius: 50%;}
 }
 @media only screen and (min-width: 600px) {
-  #profile-head .img-pro{width: 5%;}
+  #profile-head .img-pro{width: 10%;}
   #profile-head img{border-radius: 50%;}
+  #profile-head{padding-left: 7%;
+    padding-right: 7%;}
+    .top-head-menu{float: right;}
 }
-#profile-head{position: fixed;z-index: 300; width: 100%;}
+#profile-head{position: fixed;z-index: 300; width: 100%; max-width: 100%;}
 </style>  
 
-<section id="profile-head" style="background-color: #2b2a2a;">
+<!-- <section id="profile-head" style="background-color: #2b2a2a;">
     <div class="container">
       <div class="row">
         <div class="col-9 col-md-9 col-lg-9">
@@ -43,13 +46,12 @@
         </div>
         <div class="col-3 col-md-3 col-lg-3 m-auto">
           <div class="float-end">
-            <!-- <i class="fa-solid fa-phone pe-3" style="color: white;font-size: 20px;"></i> -->
             <i class="fa-solid fa-ellipsis-vertical" style="color: white;font-size: 25px;"></i>
           </div>
         </div>
       </div>
     </div>
-</section>
+</section> -->
 
 
 
@@ -60,14 +62,17 @@
 
 <style>
   @media only screen and (max-width: 600px) {
-  #profil-top-menu>ul{
+    .top-head-menu{
     position:fixed;
     bottom:0px;
     background-color: #f1f1f1;
     z-index: 200;
+     width: 100%;
     padding: 10px;
-    width: 100%;
-    }
+    
+ }
+
+
     #profil-top-menu .text{font-size: 11px;}
     #profil-top-menu li.nav-item {width: 20%;}
     #profil-top-menu .nav-link{padding: 0px!important;}
@@ -76,19 +81,16 @@
   }
 
   @media only screen and (min-width: 600px) {
-  #profil-top-menu>ul{
-    position: sticky;
-    top: 63px;
-    background-color: #ffffff;
-    z-index: 200;
-    padding: 10px;
-    }
+  
     #profil-top-menu .d-flex-nr{display: flex!important;}
     #profil-top-menu .nav-link{
     color: #000;
     background-color: #fff4d5;
     margin: 0px 3px 0px 3px;
 }
+.top-head-menu{
+    padding: 10px;
+ }
 #profil-top-menu .text{ padding-left: 6px;}
   }
 
@@ -102,7 +104,18 @@
 <!-- Nav pills -->
 <section>
 <div class="" id="profil-top-menu">
-<ul class="nav nav-pills justify-content-center">
+<div class="container" id="profile-head" style="background-color: #2b2a2a;">  
+<div class="row">
+
+<div class="col-9 col-md-4 col-lg-4">
+  <div class="d-flex pt-2 pb-2">
+    <div class="img-pro me-4"><img src="images/profil.jpg" alt="" width="100%"></div>
+    <div class="name-pro" style="margin: auto auto auto 0px;color: white;"><h2 class="">Business Name</h2></div>
+  </div>
+</div>
+
+<div class="col-md-8 col-lg-8 p-0">  
+<ul class="nav nav-pills justify-content-center top-head-menu">
   <li class="nav-item">
     <a class="nav-link active" data-bs-toggle="pill" href="#contact"><div class="d-flex-nr text-center"><p><i class="fa-regular fa-address-card m-auto"></i></p><p class="text">Contact</p></div></a>
   </li>
@@ -119,6 +132,15 @@
     <a class="nav-link" data-bs-toggle="pill" href="#connections"><div class="d-flex-nr text-center"><p><i class="fa-solid fa-share-from-square m-auto"></i></p><p class="text">Connections</p></div></a>
   </li>
 </ul>
+</div>
+
+<!-- <div class="col-2 col-md-1 col-lg-1 m-auto">
+  <div class="float-end">
+    <i class="fa-solid fa-ellipsis-vertical" style="color: white;font-size: 25px;"></i>
+  </div>
+</div> -->
+</div>
+</div>
 
 <!-- Tab panes -->
 <div class="tab-content">
@@ -130,7 +152,7 @@
           <div class="">
       
               <style>
-                .head-banner{padding-top: 64px;}
+                .head-banner{padding-top: 62px;}
                 .banner-head{padding-top: 400px;background-color: #00000082;}
                 @media only screen and (max-width: 600px) {
                   .banner-head{padding-top: 175px;background-color: #00000000;}
